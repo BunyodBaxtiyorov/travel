@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import s1 from "./img/s1.jpg"
-import s2 from "./img/s2.jpg"
+import s1 from "./img/s1.jpg";
+import s2 from "./img/s2.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -31,11 +31,12 @@ function Navbar() {
           </div>
           <nav>
             <ul>
-              <select>
-                <option value="1">🇺🇿</option>
-                <option value="2">🇺🇸</option>
-                <option value="3">🇷🇺</option>
-              </select>
+              <button>
+                <img
+                  src="https://centurysilkroadtravel.uz/assets/uzbek-hyvMRtOq.png"
+                  alt=""
+                />
+              </button>
               <li>
                 <a href="#">BOSH SAHIFA</a>
               </li>
@@ -63,16 +64,10 @@ function Navbar() {
         <div className="swiper-1">
           <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
             <SwiperSlide>
-              <img
-                src={s1 }
-                alt=""
-              />
+              <img src={s1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={s2}
-                alt=""
-              />
+              <img src={s2} alt="" />
             </SwiperSlide>
           </Swiper>
         </div>
