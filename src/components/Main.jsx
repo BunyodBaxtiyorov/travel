@@ -1,12 +1,16 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export const Main = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="Main">
       <div className="container">
         <div className="main-head">
-          <h2>RECOMMENDED TOURS</h2>
-          <div className="main-choice">
+          <h2 data-aos="fade-right">RECOMMENDED TOURS</h2>
+          <div className="main-choice" data-aos="fade-up">
             <div className="main-1">
               <img
                 src="https://people-travels.com/storage/images/countries/nT6nZmYZH735mCg64x5wZUPZh08SXapN0aQ3yOOo.webp"
@@ -38,7 +42,7 @@ export const Main = () => {
           </div>
         </div>
         <div className="Next-Main">
-          <div className="next-list">
+          <div className="next-list" data-aos="fade-right">
             <h3>Book your unique holiday package</h3>
             <p>
               Travel to Samarkand with one of our special packages. Stay in
@@ -50,14 +54,15 @@ export const Main = () => {
           </div>
           <div className="next-list-1">
             <img
+              data-aos="fade-left"
               src="https://www.phoenixtravel.se/images/TourTitle/uzbekistan/shah-i-zinda-memorial-complex-necropolis-in-samarkand-uzbekistan.jpg"
               alt=""
             />
           </div>
         </div>
         <div className="Hotel-list">
-          <h1>RECOMMENDED HOTELS</h1>
-          <div className="main-choice">
+          <h1 data-aos="fade-up-left">RECOMMENDED HOTELS</h1>
+          <div className="main-choice" data-aos="fade-down-left">
             <div className="main-1">
               <img
                 src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/2e/e2/e1/hilton-tashkent-city.jpg?w=1200&h=-1&s=1"
@@ -90,8 +95,8 @@ export const Main = () => {
         </div>
       </div>
       <div className="Projects">
-        <h1>LOYIHALAR FOTOSURATLARI</h1>
-        <div className="main-img-1">
+        <h1 data-aos="fade-right">LOYIHALAR FOTOSURATLARI</h1>
+        <div className="main-img-1" data-aos="flip-right">
           <img
             src="https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/689af743d1301a5e3efe6b800d505e56.jpg"
             alt="main-img-1"
@@ -109,7 +114,7 @@ export const Main = () => {
             alt="main-img-4"
           />
         </div>
-        <div className="main-img-2">
+        <div className="main-img-2" data-aos="flip-up">
           <img
             src="https://www.kiwi.com/stories/wp-content/uploads/2022/06/uzbekistan-covid-travel-restrictions-body-image-1.jpeg"
             alt="img-main-1"
@@ -123,7 +128,7 @@ export const Main = () => {
             alt="img-main-3"
           />
           <img
-            src="https://mediaim.expedia.com/destination/1/3c550ec86de830c1679b8c098f16e3e4.jpg"
+            src="https://www.uzdaily.uz/storage/img/2023/12/112350695_4.jpg"
             alt="img-main-4"
           />
         </div>

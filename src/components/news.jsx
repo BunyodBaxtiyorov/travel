@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function News() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="News">
       <div className="container">
-        <h1>YANGILIKLAR</h1>
-        <div className="news-list">
+        <h1 data-aos="fade-down">YANGILIKLAR</h1>
+        <div className="news-list" data-aos="fade-up-left">
           <div className="new-list">
             <img
               src="https://api.qadrdon.uz/api/uploads/images/47ddfe7a-2c07-4e58-a9de-0bc7df0a6410.jpeg"

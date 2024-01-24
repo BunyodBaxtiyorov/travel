@@ -67,10 +67,10 @@ img {
   margin-left: 265px;
   align-items: center;
 }
-.Header-all-nav ul button{
-border-radius: 50%;
-height: 22px;
-border: none;
+.Header-all-nav ul button {
+  border-radius: 50%;
+  height: 22px;
+  border: none;
 }
 .Header-all-nav ul li {
   margin-left: 25px;
@@ -137,7 +137,7 @@ border: none;
   object-fit: cover;
   position: relative;
   right: 70px;
-  z-index: -1;
+  z-index: -10 !important;
   height: 400px;
 }
 .next-list h3 {
@@ -209,6 +209,7 @@ border: none;
   height: 360px;
   border-radius: 10px;
 }
+
 .new-list img {
   border-radius: 10px 10px 0px 0px;
   width: 350px;
@@ -307,7 +308,7 @@ border: none;
   font-size: 30px;
   gap: 20px;
 }
-.fast-links ul{
+.fast-links ul {
   margin-top: 30px;
 }
 .fast-links li {
@@ -332,6 +333,6 @@ border: none;
   color: white;
   text-decoration: none;
 }
-.Footer a:hover{
+.Footer a:hover {
   color: orange;
 }
