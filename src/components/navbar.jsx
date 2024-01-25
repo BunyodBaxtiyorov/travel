@@ -38,25 +38,39 @@ function Navbar() {
                 />
               </button>
               <li>
-                <a href="#">BOSH SAHIFA</a>
+                <a className="link" href="#">
+                  BOSH SAHIFA
+                </a>
               </li>
               <li>
-                <a href="#">BIZ HAQIMIZDA</a>
+                <a className="link" href="#">
+                  BIZ HAQIMIZDA
+                </a>
               </li>{" "}
               <li>
-                <a href="#">HOTELS</a>
+                <a className="link" href="#">
+                  HOTELS
+                </a>
               </li>{" "}
               <li>
-                <a href="#">GALLERY</a>
+                <a className="link" href="#">
+                  GALLERY
+                </a>
               </li>{" "}
               <li>
-                <a href="#">YANGILIKLAR</a>
+                <a className="link" href="#">
+                  YANGILIKLAR
+                </a>
               </li>{" "}
               <li>
-                <a href="#">BLOG</a>
+                <a className="link" href="#">
+                  BLOG
+                </a>
               </li>{" "}
               <li>
-                <a href="#">ALOQA</a>
+                <a className="link" href="#">
+                  ALOQA
+                </a>
               </li>
             </ul>
           </nav>
