@@ -49,7 +49,7 @@ img {
   display: flex;
 }
 .header-left h2 {
-  color:#003451;
+  color: #003451;
   font-weight: 700;
   margin-left: 10px;
 }
@@ -351,6 +351,11 @@ img {
   display: flex;
   font-size: 30px;
   gap: 20px;
+  color: white !important;
+}
+.global-link a{
+  color: white;
+
 }
 .fast-links ul {
   margin-top: 30px;

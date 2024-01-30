@@ -16,10 +16,22 @@ export default function Footer() {
               the Great Silk Road!
             </p>
             <div className="global-link">
-              <FaInstagram />
-              <FaTelegram />
-              <FaFacebook />
-              <FaYoutube />
+              <a href="#">
+                {" "}
+                <FaInstagram />
+              </a>
+              <a href="#">
+                {" "}
+                <FaTelegram />
+              </a>
+              <a href="#">
+                {" "}
+                <FaFacebook />
+              </a>
+              <a href="#">
+                {" "}
+                <FaYoutube />
+              </a>
             </div>
           </div>
           <div className="fast-links">
