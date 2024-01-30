@@ -6,7 +6,7 @@ import s2 from "./img/s2.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
+// import Button from "./Button.jsx";
 import "./styles.css";
 
 // import required modules
@@ -18,25 +18,22 @@ function Navbar() {
       <div className="container">
         <div className="Header-all-nav">
           <div className="Header-top">
-            <div className="header-left">
-              <img
-                src="https://centurysilkroadtravel.uz/assets/vizitka-VjlmDffM.jpg"
-                alt="Header-Img"
-              />
-              <h2>
-                CENTURY SILK <br />
-                ROAD TRAVEL
-              </h2>
-            </div>
+            <a href="./">
+              <div className="header-left">
+                <img
+                  src="https://centurysilkroadtravel.uz/assets/vizitka-VjlmDffM.jpg"
+                  alt="Header-Img"
+                />
+                <h2>
+                  CENTURY SILK <br />
+                  ROAD TRAVEL
+                </h2>
+              </div>
+            </a>
           </div>
           <nav>
             <ul>
-              <button>
-                <img
-                  src="https://centurysilkroadtravel.uz/assets/uzbek-hyvMRtOq.png"
-                  alt=""
-                />
-              </button>
+              <button>{/* <Button /> */}</button>
               <li>
                 <a className="link" href="#">
                   BOSH SAHIFA

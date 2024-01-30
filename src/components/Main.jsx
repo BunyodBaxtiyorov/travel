@@ -11,38 +11,46 @@ export const Main = () => {
         <div className="main-head">
           <h2 data-aos="fade-right">RECOMMENDED TOURS</h2>
           <div className="main-choice" data-aos="fade-up">
-            <div className="main-1">
-              <img
-                src="https://people-travels.com/storage/images/countries/nT6nZmYZH735mCg64x5wZUPZh08SXapN0aQ3yOOo.webp"
-                alt=""
-              />
-              <h5>Bukhara-Samarkand 3 days tour by train</h5>
-            </div>
-            <div className="main-1">
-              <img
-                src="https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1548223166673-QY9NQLSURMPNDU7CY6OP/IMG_9677.JPG?format=1500w"
-                alt=""
-              />
-              <h5>Bukhara-Samarkand 2 days tour by train</h5>
-            </div>{" "}
-            <div className="main-1">
-              <img
-                src="https://www.peregrineadventures.com/blog/wp-content/uploads/2019/02/Intrepid-Travel-Uzbekistan_Samarkand_Shah-i-Zinda_-1820.jpg"
-                alt=""
-              />
-              <h5>Bukhara-Samarkand 1 days tour by train</h5>
-            </div>{" "}
-            <div className="main-1">
-              <img
-                src="https://cdn.sanity.io/images/24oxpx4s/prod/3938b055cd3ba11558d72e52e7d843e12f4f1d00-4819x3213.jpg?auto=format&fit=crop&q=70&w=3840&h=5486"
-                alt=""
-              />
-              <h5>Bukhara-Samarkand 10 days tour by train</h5>
-            </div>
+            <a href="#">
+              <div className="main-1">
+                <img
+                  src="https://people-travels.com/storage/images/countries/nT6nZmYZH735mCg64x5wZUPZh08SXapN0aQ3yOOo.webp"
+                  alt=""
+                />
+                <h5>Bukhara-Samarkand 3 days tour by train</h5>
+              </div>
+            </a>
+            <a href="#">
+              <div className="main-1">
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1548223166673-QY9NQLSURMPNDU7CY6OP/IMG_9677.JPG?format=1500w"
+                  alt=""
+                />
+                <h5>Bukhara-Samarkand 2 days tour by train</h5>
+              </div>{" "}
+            </a>
+            <a href="">
+              <div className="main-1">
+                <img
+                  src="https://www.peregrineadventures.com/blog/wp-content/uploads/2019/02/Intrepid-Travel-Uzbekistan_Samarkand_Shah-i-Zinda_-1820.jpg"
+                  alt=""
+                />
+                <h5>Bukhara-Samarkand 1 days tour by train</h5>
+              </div>{" "}
+            </a>
+            <a href="#">
+              <div className="main-1">
+                <img
+                  src="https://cdn.sanity.io/images/24oxpx4s/prod/3938b055cd3ba11558d72e52e7d843e12f4f1d00-4819x3213.jpg?auto=format&fit=crop&q=70&w=3840&h=5486"
+                  alt=""
+                />
+                <h5>Bukhara-Samarkand 10 days tour by train</h5>
+              </div>
+            </a>
           </div>
         </div>
         <div className="Next-Main">
-          <div className="next-list" data-aos="fade-right">
+          <div className="next-list">
             <h3>Book your unique holiday package</h3>
             <p>
               Travel to Samarkand with one of our special packages. Stay in
@@ -54,15 +62,14 @@ export const Main = () => {
           </div>
           <div className="next-list-1">
             <img
-              data-aos="fade-left"
               src="https://www.phoenixtravel.se/images/TourTitle/uzbekistan/shah-i-zinda-memorial-complex-necropolis-in-samarkand-uzbekistan.jpg"
               alt=""
             />
           </div>
         </div>
         <div className="Hotel-list">
-          <h1 data-aos="fade-up-left">RECOMMENDED HOTELS</h1>
-          <div className="main-choice" data-aos="fade-down-left">
+          <h1>RECOMMENDED HOTELS</h1>
+          <div className="main-choice">
             <div className="main-1">
               <img
                 src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/2e/e2/e1/hilton-tashkent-city.jpg?w=1200&h=-1&s=1"
@@ -96,7 +103,7 @@ export const Main = () => {
       </div>
       <div className="Projects">
         <h1 data-aos="fade-right">LOYIHALAR FOTOSURATLARI</h1>
-        <div className="main-img-1" data-aos="flip-right">
+        <div className="main-img-1">
           <img
             src="https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/689af743d1301a5e3efe6b800d505e56.jpg"
             alt="main-img-1"
@@ -106,7 +113,7 @@ export const Main = () => {
             alt="main-img-2"
           />
           <img
-            src="https://univ-silkroad.uz/media/k2/items/cache/890602090856167d6e437c240c8755b2_L.jpg"
+            src="https://www.uzdaily.com/storage/img/2023/05/01af74ecc711660_4.jpg"
             alt="main-img-3"
           />
           <img
@@ -114,7 +121,7 @@ export const Main = () => {
             alt="main-img-4"
           />
         </div>
-        <div className="main-img-2" data-aos="flip-up">
+        <div className="main-img-2">
           <img
             src="https://www.kiwi.com/stories/wp-content/uploads/2022/06/uzbekistan-covid-travel-restrictions-body-image-1.jpeg"
             alt="img-main-1"

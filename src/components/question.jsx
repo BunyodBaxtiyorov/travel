@@ -14,7 +14,7 @@ export default function Question() {
           <div className="question-1" data-aos="zoom-in-down">
             {" "}
             <form action="/action_page.php">
-              <label htmlFor="fname">Ism* *</label> <br />
+              <label htmlFor="fname">Ism* *</label> <br /> <br />
               <input
                 type="text"
                 id="fname"
@@ -22,7 +22,7 @@ export default function Question() {
                 placeholder="Ism *"
               />{" "}
               <br />
-              <label htmlFor="lname">Telefon Raqami* *</label> <br />
+              <label htmlFor="lname">Telefon Raqami* *</label> <br /> <br />
               <input
                 type="text"
                 id="lname"
@@ -30,7 +30,7 @@ export default function Question() {
                 placeholder="Telefon Raqami *"
               />{" "}
               <br />
-              <label htmlFor="">Sizning xabaringiz* *</label> <br />
+              <label htmlFor="">Sizning xabaringiz* *</label> <br /> <br />
               <textarea
                 name=""
                 id=""
@@ -41,7 +41,7 @@ export default function Question() {
             </form>
             <button type="submit">Yuborish</button>
           </div>
-          <div className="question-2" data-aos="zoom-out">
+          <div className="question-2">
             <img
               src="https://centurysilkroadtravel.uz/assets/contact-e-F2SJW_.png"
               alt=""

@@ -10,7 +10,7 @@ function News() {
     <div className="News">
       <div className="container">
         <h1 data-aos="fade-down">YANGILIKLAR</h1>
-        <div className="news-list" data-aos="fade-up-left">
+        <div className="news-list">
           <div className="new-list">
             <img
               src="https://api.qadrdon.uz/api/uploads/images/47ddfe7a-2c07-4e58-a9de-0bc7df0a6410.jpeg"
