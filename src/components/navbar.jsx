@@ -72,16 +72,16 @@ function Navbar() {
             </ul>
           </nav>
         </div>
-        <div className="swiper-1">
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-            <SwiperSlide>
-              <img src={s1} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={s2} alt="" />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+      </div>
+      <div className="swiper-1">
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide>
+            <img src={s1} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={s2} alt="" />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

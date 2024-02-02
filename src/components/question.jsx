@@ -9,7 +9,7 @@ export default function Question() {
   return (
     <div className="Question">
       <div className="container">
-        <h2>BIZGA SAVOLLARINGIZ BORMI?</h2>
+        <h2 className="qws-h2">BIZGA SAVOLLARINGIZ BORMI?</h2>
         <div className="question">
           <div className="question-1" data-aos="zoom-in-down">
             {" "}
