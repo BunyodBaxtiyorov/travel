@@ -125,7 +125,7 @@ export const Main = () => {
           <div className="img-main-1">
             {" "}
             <img
-              src="https://1.bp.blogspot.com/-8zn_MMUfNTI/VE2teqkLujI/AAAAAAAACK0/tecYVsL7Abg/s1600/20141012-_7008441_2.jpg"
+              src="https://cdn.enjoytravel.com/img/travel-news/russia-ruled-uzbekistan-for-nearly-two-centuries.jpg"
               alt="main-img-4"
             />
           </div>

@@ -164,7 +164,7 @@ img {
   /* width: 100%; */
   object-fit: cover;
 }
-.main-1 h5{
+.main-1 h5 {
   width: 100%;
 }
 .main-choice h5 {
@@ -217,7 +217,7 @@ img {
   margin-bottom: 70px;
 }
 .next-list button {
-  /* width: 150px; */
+  width: 150px;
   height: 40px;
   border: 0;
   color: #3a348a;
@@ -400,7 +400,7 @@ img {
 }
 .contact li {
   list-style: none;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .contact ul li a {
   color: white;
