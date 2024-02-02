@@ -37,9 +37,9 @@ export default function TransitionsModal() {
                   alt=""
                 />
                 <div className="h1-mobile">
-                  CENTURY SILK
-                  <br />
-                  ROAD TRAVEL
+                  <h3> CENTURY SILK</h3>
+                  {/* <br /> */}
+                  <h3> ROAD TRAVEL</h3>
                 </div>
               </div>
               <Button onClick={handleOpen} className="btn-mobile">
