@@ -38,6 +38,11 @@
     display: block;
     margin-top: 200px;
   }
+  .swiper-slide {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  }
   .question img {
     display: none;
   }
